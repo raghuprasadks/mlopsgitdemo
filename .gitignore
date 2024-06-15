@@ -1,0 +1,41 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+*.egg
+*.pyc
+
+# Flask
+instance/
+.webassets-cache
+
+# Development
+.vscode/
+*.log
+*.sqlite
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+*.whl
+*.pdf
+*.pickle
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
